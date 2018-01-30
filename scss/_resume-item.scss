@@ -2,11 +2,16 @@ section.resume-section {
   border-bottom: 1px solid $gray-300;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+  .max-read{
+    max-width: 800px;
+  }
+
   .resume-item {
     .resume-content {}
     .resume-date {
       min-width: none;
     }
+   
   }
 }
 @media (min-width: 768px) {
@@ -26,3 +31,5 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
+
+
